@@ -1,0 +1,11 @@
+prefix=/home/cadd/Sizon/sizon_work/clsmodel/clsmodel
+exec_prefix=/home/cadd/Sizon/sizon_work/clsmodel/clsmodel
+libdir=/home/cadd/Sizon/sizon_work/clsmodel/clsmodel/lib
+includedir=/home/cadd/Sizon/sizon_work/clsmodel/clsmodel/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.38.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
